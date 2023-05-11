@@ -2,7 +2,6 @@ import pytest
 from functions.two_sum import twoSum
 
 
-
 def test_returns_0_1_for_2_7_11_15_with_target_9():
     # Arrange
     n = [2, 7, 11, 15]
@@ -37,4 +36,3 @@ def test_returns_0_1_for_3_3_with_target_6():
 
     # Assert
     assert answer == [0, 1]
-```
